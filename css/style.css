@@ -1,3 +1,65 @@
-h1{
-    color: darkblue;
+body{
+    margin:0;
+    background-image: url("../imagenes/img/bg-index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Tahoma 12px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+.titulo{
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Tahoma;
+}
+.contenedor{
+    align-self: center;
+    padding: 14px 16px;
+    background: rgba(120, 120, 120, 0.5);
+    width: 90%;
+}
+
+.contenedor-texto{
+    color: #f2f2f2;
+    text-align: left;
+    align-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+.formulario-contacto{
+    color: #f2f2f2;
+    text-align: left;
+    align-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
 }

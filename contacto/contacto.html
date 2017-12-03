@@ -1,55 +1,59 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//ES">
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-    <title>Sistemas de Tiempo Real - Contacto</title>
-</head>
+        <title>Sistemas de Tiempo Real - Contacto</title>
+    </head>
 
-<body>
-    <!-- Navegación de la página-->
-    <nav>
-        <a href="../index.html">Inicio</a> |
-        <a href="../proyecto/proyecto.html">Proyecto</a> |
-        <a href="../contacto/contacto.html">Contacto</a> |
-    </nav>
-    <h1>Contacto</h1>
-    <br>
-    <form action="" method="post">
-        <fieldset>
-            <legend>Datos Personales</legend>
-            Nombre:
-            <input name="nombre" type="text" size="15" maxlength="15">
-            <br> Apellido:
-            <input name="apellido" type="text" size="15" maxlength="20">
-            <br>
-        </fieldset>
-        <fieldset>
-            <legend>Correo</legend>
-            e-mail:
-            <input name="email" type="text" size="20" maxlength="20">
-            <br>
-        </fieldset>
-        <fieldset>
-            <legend>Sexo</legend>
-            <input type="radio" name="sexo" value="H" checked>Hombre
-            <br>
-            <input type="radio" name="sexo" value="M">Mujer
-            <br>
-        </fieldset>
-        <fieldset>
-            <legend>Mensaje</legend>
-            <textarea placeholder="Ingrese su mensaje aquí">
-            </textarea>
-        </fieldset>
-        <input type="submit">
-        <input type="reset">
-    </form>
+    <body>
+        <!-- Navegación de la página-->
+        <div class="navbar">
+            <a href="../index.html">Inicio</a>
+            <a href="../proyecto/proyecto.html">Proyecto</a>
+            <a href="../contacto/contacto.html">Contacto</a>
+        </div>
 
-</body>
+        <div class="main">
+            <div class="contenedor formulario-contacto">
+                <h1>Contacto</h1>
+                <br>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        Nombre:
+                        <input name="nombre" type="text" size="15" maxlength="15">
+                        <br>
+                        Apellido:
+                        <input name="apellido" type="text" size="15" maxlength="20">
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Correo</legend>
+                        e-mail:
+                        <input name="email" type="text" size="20" maxlength="20">
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <input type="radio" name="sexo" value="h" checked>Hombre
+                        <br>
+                        <input type="radio" name="sexo" value="m">Mujer
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensaje</legend>
+                        <textarea placeholder="ingrese su mensaje aquí"></textarea>
+                    </fieldset>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+            </div>
+        </div>
+    </body>
 
 </html>
